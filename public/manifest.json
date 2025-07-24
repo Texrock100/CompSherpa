@@ -1,0 +1,27 @@
+{
+  "name": "CompSherpa - Your AI Salary Negotiation Coach",
+  "short_name": "CompSherpa",
+  "description": "Get personalized salary insights and negotiation strategies for Nurse Practitioners and healthcare professionals.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "120x120",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity", "education"],
+  "lang": "en",
+  "dir": "ltr"
+} 
