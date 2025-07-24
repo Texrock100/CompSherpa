@@ -523,46 +523,15 @@ export default function Report() {
                   </>
                 )}
               </ol>
-            </div>
-
-            {/* What to Say */}
-            <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 avoid-break">
-              <h2 className="text-2xl font-bold mb-4">Exactly What to Say 💬</h2>
               
-              <div className="bg-amber-50 p-4 rounded-lg mb-6 avoid-break">
-                <p className="text-sm text-amber-800">
-                  <strong>Pro tip:</strong> Practice these scripts out loud before your negotiation.
+              <div className="mt-6 bg-blue-50 p-4 rounded-lg avoid-break">
+                <p className="text-sm text-blue-800">
+                  <strong>💡 Pro tip:</strong> See our sample negotiation checklist and the resource library for more ideas on negotiating the overall comp package.
                 </p>
               </div>
-
-              {report.report.customScripts && typeof report.report.customScripts === 'object' ? (
-                <div className="space-y-6">
-                  {Object.entries(report.report.customScripts).map(([key, script]) => (
-                    <div key={key} className="bg-gray-50 p-6 rounded-xl avoid-break">
-                      <h3 className="font-semibold mb-3 text-lg">
-                        {key.replace(/([A-Z])/g, ' $1').trim()}
-                      </h3>
-                      <p className="text-gray-700 italic">"{script}"</p>
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="space-y-6">
-                  <div className="bg-gray-50 p-6 rounded-xl avoid-break">
-                    <h3 className="font-semibold mb-3">Initial Response</h3>
-                    <p className="text-gray-700 italic">
-                      "Thank you for the offer! I'm very excited about joining the team. I'd love to discuss a few aspects of the compensation package."
-                    </p>
-                  </div>
-                  <div className="bg-gray-50 p-6 rounded-xl avoid-break">
-                    <h3 className="font-semibold mb-3">Salary Discussion</h3>
-                    <p className="text-gray-700 italic">
-                      "Based on my research and {profile?.yearsExperience || '0'} years of experience, I was expecting a range closer to ${report.report.salaryRange?.max?.toLocaleString() || '125,000'}. Can we explore ways to bridge this gap?"
-                    </p>
-                  </div>
-                </div>
-              )}
             </div>
+
+
 
             {/* Benefits Beyond Salary */}
             <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 avoid-break">
