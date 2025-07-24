@@ -57,8 +57,8 @@ export default function Home() {
       <section className="pt-20 pb-32 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
-            <div className="mb-6 inline-block animate-bounce">
-              <img src="/icon.svg" alt="CompSherpa" className="w-20 h-20" />
+            <div className="mb-6 inline-block">
+              <img src="/logo.svg" alt="CompSherpa" className="w-20 h-20" />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               Stop Accepting Scraps.<br/>
